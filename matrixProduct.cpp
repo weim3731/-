@@ -16,6 +16,7 @@ int main()
 	scanf("%dx%d",&jz2.m,&jz2.n);
 	if(jz1.n==jz2.m)
 	{
+		printf("相乘后矩阵大小为");
 		printf("%dx%d",jz1.m,jz2.n);
 	}else{
 		printf("N");
